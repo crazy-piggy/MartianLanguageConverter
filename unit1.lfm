@@ -1,8 +1,19 @@
 object Form1: TForm1
-  Left = 248
+  Left = 259
   Height = 240
   Top = 176
   Width = 320
   Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 320
   LCLVersion = '2.2.4.0'
+  object ButtonExit: TButton
+    Left = 208
+    Height = 25
+    Top = 152
+    Width = 75
+    Caption = 'ButtonExit'
+    OnClick = ButtonExitClick
+    TabOrder = 0
+  end
 end
